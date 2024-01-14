@@ -3,30 +3,30 @@ Details can be found in my medium blog at My first Generative AI project: Evalua
 
 Installation and use
 1) Your Python project folder should look like this.
-   basedir
+   - basedir
      - src
      - data
          - input
  
 2) Download the following files and place them in the src folder:
-•	foodAllergyRiskEvalFunctions.py
-•	foodAllergyRiskEvalMain.py
-•	menuData_format.JSON
-•	menu_analysis_response_format.JSON
+ - foodAllergyRiskEvalFunctions.py
+ - foodAllergyRiskEvalMain.py
+ - menuData_format.JSON
+ - menu_analysis_response_format.JSON
 
 3) In the file foodAllergyRiskEvalMain.py, set the following:
-•	Your Open AI API key.
-•	Your base directory (your Python project folder)
+ - Your Open AI API key.
+ - Your base directory (your Python project folder)
 
 4) In the data\input folder, place your menu data files. These can be text dumps of restaurant website menus, or files created by a screen scrapers. 
 
 5) Go back to foodAllergyRiskEvalMain.py and set the following:
-•	The allergens of interest.
-•	The menu data file name.
+ - The allergens of interest.
+ - The menu data file name.
 
 6) Execute the program.  
  
 Potential improvements
-•	Loop thru multiple menu files in the data\input folder.
-•	Alternatively, read HTTP data from a list of restaurant websites returned by a search.
-•	Graphical user interface that presents scoring and ranking of multiple restaurants.
+ - Loop thru multiple menu files in the data\input folder.
+ - Alternatively, read HTTP data from a list of restaurant websites returned by a search.
+ - Graphical user interface that presents scoring and ranking of multiple restaurants.
